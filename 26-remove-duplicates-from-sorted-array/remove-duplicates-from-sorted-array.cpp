@@ -8,7 +8,6 @@ public:
                 nums[output] = nums[i];
                 output++;
             }
-
         }
 
         return output;

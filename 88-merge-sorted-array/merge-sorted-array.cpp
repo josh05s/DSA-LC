@@ -6,7 +6,7 @@ public: // 0(1) approach for the second attempt, no notes or recitation
         int l = m - 1;
 
         while (k >= 0) {
-            if (l >= 0 && nums1[l] >= nums2[k]) {
+            if (l >= 0 && nums1[l] > nums2[k]) {
                 nums1[j] = nums1[l];
                 l--;
             } else {

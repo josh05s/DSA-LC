@@ -9,7 +9,7 @@ public:
                 output++;
             }
         }
-        
-        return output;
+
+        return output;    
     }
 };
